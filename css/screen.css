@@ -4,6 +4,7 @@
 }
 
 body {
+  background-image: linear-gradient(to right, #8a2be2, #eecbad, #f5f5f5);
   margin: 0;
   padding: 0;
   background: #DDD;
@@ -159,4 +160,22 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
+}
+
+@media only screen and (max-width: 768px) {
+    .background {
+        padding: 0 5%;
+    }
+	body {
+        background-image: linear-gradient(to right, #8a2be2, #eecbad, #f5f5f5);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .background {
+        padding: 0 2%;
+    }
+	body {
+        background-image: linear-gradient(to right, #8a2be2, #eecbad, #f5f5f5);
+    }
 }
